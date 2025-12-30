@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter (we removed notebooks, but people relapse)
+.ipynb_checkpoints/
+
+# Data caches (OpenML/sklearn)
+data_cache/
+openml_cache/
+sklearn_data/
+
+# Outputs (keep figures tracked because README embeds them)
+# outputs/figures/*.png  <-- intentionally NOT ignored
