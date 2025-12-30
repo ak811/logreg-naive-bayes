@@ -102,19 +102,10 @@ python scripts/mnist_bnb_generate.py
 
 Scripts write figures into `outputs/figures/`. The README embeds these using relative paths, so commit the generated images.
 
-### Iris: Gradient Descent loss (no bias)
-![Iris GD Loss](outputs/figures/iris_gd_loss.png)
-
-### Iris: Gradient Descent loss (with bias)
-![Iris GD Loss (bias)](outputs/figures/iris_gd_bias_loss.png)
-
 ### Iris: IRLS/Newton vs Gradient Descent (no bias)
 ![Iris IRLS vs GD](outputs/figures/iris_irls_vs_gd.png)
 
-### Iris: IRLS/Newton vs Gradient Descent (with bias)
-![Iris IRLS vs GD (bias)](outputs/figures/iris_irls_vs_gd_bias.png)
-
-### MNIST: Gaussian NB smoothing sweep
+### MNIST: Gaussian Naive Bayes smoothing sweep
 ![MNIST GNB Sweep](outputs/figures/mnist_gnb_accuracy_sweep.png)
 
 ### MNIST: Generated digits (Gaussian NB)
