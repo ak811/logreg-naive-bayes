@@ -13,26 +13,13 @@ Benchmarked on:
 
 ---
 
-## Repository layout
-
-```
-ml-classifiers/
-├─ src/ml_classifiers/          # library code
-├─ scripts/                     # reproducible experiment runners
-├─ outputs/figures/             # generated plots (tracked)
-└─ tests/                       # quick sanity checks (optional)
-```
-
----
-
 ## Setup
 
 ### 1) Create an environment (recommended)
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # macOS/Linux
-# .venv\Scripts\activate  # Windows PowerShell
+source .venv/bin/activate
 ```
 
 ### 2) Install dependencies
