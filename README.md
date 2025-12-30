@@ -11,8 +11,6 @@ Benchmarked on:
 - **Iris** (toy multiclass dataset)
 - **MNIST (OpenML)** (handwritten digits)
 
-All plots are saved to `outputs/figures/` (no interactive `plt.show()` in scripts).
-
 ---
 
 ## Repository layout
