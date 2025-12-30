@@ -1,6 +1,6 @@
 # ML Classifiers: Logistic Regression (GD/IRLS) + Naive Bayes (Gaussian/Bernoulli)
 
-A small, reproducible machine-learning mini-project implementing:
+A machine-learning project implementing:
 
 - **Multiclass (softmax) logistic regression** trained with **gradient descent**
 - **Multiclass logistic regression (K−1 parameterization)** trained with **Newton / IRLS**
